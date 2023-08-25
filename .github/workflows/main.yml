@@ -19,7 +19,6 @@ jobs:
 
       - name: get id_token
         run: |
-          echo ${{ id_token }}
           echo ${{ secrets.id_token }}        
       
       - name: Azure CLI script
